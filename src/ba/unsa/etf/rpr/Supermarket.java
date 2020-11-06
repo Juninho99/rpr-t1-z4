@@ -14,6 +14,10 @@ public class Supermarket {
         broj_artikala = broj_artikala + 1;
     }
 
+    public int getBroj_artikala() {
+        return broj_artikala;
+    }
+
     public Artikl[] getArtikli() {
         return niz;
     }
